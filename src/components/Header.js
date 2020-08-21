@@ -4,6 +4,28 @@ import { Typography, Avatar, Grid, Box } from "@material-ui/core";
 import Typed from "react-typed";
 import avatar from "../avatar.png";
 
+const Header = () => {
+  const classes = useStyles();
+  return (
+    <Box className={classes.typedContainer}>
+      <Grid container justify="center">
+        <Avatar className={classes.avatar} src={avatar} alt="Icon of ME" />
+      </Grid>
+      <Typography className={classes.title} variant="h4">
+        <Typed strings={["Robert Garza Portfolio"]} typeSpeed={100} />
+      </Typography>
+      <br />
+      <Typography className={classes.subtitle} variant="h4">
+        <Typed
+          strings={["HTML/CSS", "JAVASCRIPT", "SQL", "NOSQL", "NODE", "REACT"]}
+          typeSpeed={60}
+          loop
+        />
+      </Typography>
+    </Box>
+  );
+};
+
 // CSS
 const useStyles = makeStyles((theme) => ({
   avatar: {
@@ -28,27 +50,5 @@ const useStyles = makeStyles((theme) => ({
     zIndex: 1,
   },
 }));
-
-const Header = () => {
-  const classes = useStyles();
-  return (
-    <Box className={classes.typedContainer}>
-      <Grid container justify="center">
-        <Avatar className={classes.avatar} src={avatar} alt="Icon of ME" />
-      </Grid>
-      <Typography className={classes.title} variant="h4">
-        <Typed strings={["Robert Garza Portfolio"]} typeSpeed={100} />
-      </Typography>
-      <br />
-      <Typography className={classes.subtitle} variant="h4">
-        <Typed
-          strings={["Web Design", "Web Development", "MERN STACK"]}
-          typeSpeed={60}
-          loop
-        />
-      </Typography>
-    </Box>
-  );
-};
 
 export default Header;
