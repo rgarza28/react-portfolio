@@ -131,8 +131,29 @@ const Resume = () => {
             <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
             Manage the repair center, warehouse, quality control, customer service, and product testing aspects of the business. Create documentation for procedures outlining the tasks each department is responsible for. Establish metrics for each role, monitor they are met, and coach individuals who are not meeting them. Coach mentor employees to learn and hone new skills 
             </Typography>
+            
           </Box>
+          <Typography
+            variant="h2"
+            className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+          >
+            2016 - 2018
+          </Typography>
+          <Box component="div" className={classes.timeLineItem}>
+            <Typography variant="h5" align="center" className={classes.subHeading}>
+              Director of Qualit Control
+            </Typography>
+            <Typography variant="body1" align="center" style={{color: "tomato"}}>
+              Werx Repair Services
+            </Typography>
+            <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
+            Manage the repair center, warehouse, quality control, customer service, and product testing aspects of the business. Create documentation for procedures outlining the tasks each department is responsible for. Establish metrics for each role, monitor they are met, and coach individuals who are not meeting them. Coach mentor employees to learn and hone new skills 
+            </Typography>
+            
+          </Box>
+
         </Box>
+        
       </Box>
     </>
   );

@@ -1,24 +1,31 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a59e53f5.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.671d7b78.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.671d7b78.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.3217c8c5.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3217c8c5.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.0f50265a.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.0f50265a.js.map",
-    "static/js/2.0e4c2411.chunk.js": "/react-portfolio/static/js/2.0e4c2411.chunk.js",
-    "static/js/2.0e4c2411.chunk.js.map": "/react-portfolio/static/js/2.0e4c2411.chunk.js.map",
+    "static/js/2.21f377bf.chunk.js": "/react-portfolio/static/js/2.21f377bf.chunk.js",
+    "static/js/2.21f377bf.chunk.js.map": "/react-portfolio/static/js/2.21f377bf.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.6e706e48a8fbd80f40e3e0d202f6f3f8.js": "/react-portfolio/precache-manifest.6e706e48a8fbd80f40e3e0d202f6f3f8.js",
+    "precache-manifest.d1aa5db70f4485cfa59314fac4bda44c.js": "/react-portfolio/precache-manifest.d1aa5db70f4485cfa59314fac4bda44c.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/main.a59e53f5.chunk.css.map": "/react-portfolio/static/css/main.a59e53f5.chunk.css.map",
-    "static/js/2.0e4c2411.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0e4c2411.chunk.js.LICENSE.txt",
+    "static/js/2.21f377bf.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.21f377bf.chunk.js.LICENSE.txt",
     "static/media/avatar.png": "/react-portfolio/static/media/avatar.bcb163e2.png",
-    "static/media/App.css": "/react-portfolio/static/media/coffee-apple.2dd213aa.jpg"
+    "static/media/bng.png": "/react-portfolio/static/media/bng.b170a2e4.png",
+    "static/media/codeQuiz.png": "/react-portfolio/static/media/codeQuiz.66120e4c.png",
+    "static/media/App.css": "/react-portfolio/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/employeeDirectory.png": "/react-portfolio/static/media/employeeDirectory.99243e7f.png",
+    "static/media/inventorymanager.png": "/react-portfolio/static/media/inventorymanager.1c4fef76.png",
+    "static/media/noteTaker.png": "/react-portfolio/static/media/noteTaker.b9681f6b.png",
+    "static/media/travelpacker.png": "/react-portfolio/static/media/travelpacker.bfd9f75d.png",
+    "static/media/weatherDash.png": "/react-portfolio/static/media/weatherDash.538c4097.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0f50265a.js",
-    "static/js/2.0e4c2411.chunk.js",
+    "static/js/2.21f377bf.chunk.js",
     "static/css/main.a59e53f5.chunk.css",
-    "static/js/main.671d7b78.chunk.js"
+    "static/js/main.3217c8c5.chunk.js"
   ]
 }
