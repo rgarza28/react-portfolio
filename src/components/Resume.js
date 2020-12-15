@@ -141,7 +141,7 @@ const Resume = () => {
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography variant="h5" align="center" className={classes.subHeading}>
-              Director of Qualit Control
+              Director of Quality Control
             </Typography>
             <Typography variant="body1" align="center" style={{color: "tomato"}}>
               Werx Repair Services

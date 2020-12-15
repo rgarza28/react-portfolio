@@ -10,6 +10,7 @@ import project6 from"../images/workDay.png"
 import project7 from"../images/passgen.png"
 import project8 from"../images/weatherDash.png"
 import project9 from"../images/employeeDirectory.png"
+import project10 from"../images/portfolioOne.png"
 import {
   Box,
   Grid,
@@ -305,6 +306,35 @@ const Portfolio = () => {
                     Github Repo
                   </Button>
                   <Button size="small" color="primary" href="https://rgarza28.github.io/Employee-Directory/" target="_blank">
+                    Live Demo
+                  </Button>
+                </CardActions>
+              </CardActionArea>
+            </Card>
+        </Grid>
+        {/* Project 10 */}
+        <Grid item xs={12} sm={8} md={6}>
+            <Card className={classes.cardContainer}>
+              <CardActionArea>
+                <CardMedia   
+                  component="img"
+                   alt="Project 10"
+                  height="140"
+                  image={project10}
+                  />
+                <CardContent>
+                  <Typography gutterBottom variant="h5">
+                    First Portfolio
+                  </Typography>
+                  <Typography variant="body2" color="textSecondary" component="p">
+                  The is the first portfolio I created from my introduction into Web Development
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small" color="primary" href="https://github.com/rgarza28/portfolio" target="_blank">
+                    Github Repo
+                  </Button>
+                  <Button size="small" color="primary" href="https://rgarza28.github.io/portfolio/index.html" target="_blank">
                     Live Demo
                   </Button>
                 </CardActions>
