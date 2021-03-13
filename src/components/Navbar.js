@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
     width: 250,
     background: "#511",
-    height: "100vp",
+    height: "100",
   },
   avatar: {
     display: "block",
@@ -65,7 +65,7 @@ const menuItems = [
   },
   {
     listIcon: <ContactMail />,
-    listText: "Contacts",
+    listText: "Contact Info",
     listPath: "/contact",
   },
 ];

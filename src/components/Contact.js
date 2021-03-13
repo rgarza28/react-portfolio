@@ -51,45 +51,21 @@ const Contact = () => {
       <Navbar />
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
-          <Typography variant="h5" style={{color: "tomato", textAlign: "center", textTransform: "uppercase" }}>
-            Contact Me
+          <Typography variant="h4" style={{color: "tomato", textAlign: "center", textTransform: "uppercase" }}>
+            Email
           </Typography>
-          <InputField
-          fullWidth={true}
-          label="Name"
-          variant="outlined"
-          inputProps={{style:{ color: "white"}}}
-          margin="dense"
-          size="medium"
-          />
+          <Typography variant="h5" style={{color: "tan", textAlign: "center"}}>
+            garza.robert28@gmail.com
+          </Typography>
           <br />
-
-          <InputField
-          fullWidth={true}
-          label="Email"
-          variant="outlined"
-          inputProps={{style:{ color: "white"}}}
-          margin="dense"
-          size="medium"
-          />
-          <br />
-
-          <InputField
-          fullWidth={true}
-          label="Company Name"
-          variant="outlined"
-          inputProps={{style:{ color: "white"}}}
-          margin="dense"
-          size="medium"
-          />
-          <br />
-
-          <Button className={classes.button} variant="outlined" fullWidth={true} endIcon={<SendIcon />}>
-              Submit
-          </Button>
-          
-         
+          <Typography variant="h4" style={{color: "tomato", textAlign: "center", textTransform: "uppercase" }}>
+            Phone Number
+          </Typography>
+          <Typography variant="h5" style={{color: "tan", textAlign: "center"}}>
+            972-261-9144
+          </Typography>
         </Box>
+        
       </Grid>
     </Box>
   );
