@@ -55,7 +55,7 @@ const menuItems = [
   },
   {
     listIcon: <AssignmentInd />,
-    listText: "Resume",
+    listText: "Work Experience",
     listPath: "/resume",
   },
   {
